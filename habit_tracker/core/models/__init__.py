@@ -4,7 +4,7 @@ Models package for the Habit Tracker application.
 This package contains all data models used by the application.
 """
 
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 
 # Create the base class for all models
 Base = declarative_base()
